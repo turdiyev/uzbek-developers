@@ -1,0 +1,21 @@
+{
+  "name": "uzbek-developers",
+  "description": "Telegramdagi @UzbekDevelopers yopiq guruhi uchun ",
+  "scripts": {
+    "postdeploy": "bin/setup",
+    "pr-predestroy": "bin/teardown"
+  },
+  "env": {
+    "KEY": "test12345"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
